@@ -17,7 +17,16 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">Coded by Marissa B</footer>
+        <footer className="text-center">
+          Coded by Marissa B and is{" "}
+          <a href="https://github.com/mbutto26/dictionary-project.git">
+            open-sourced on Github{"  "}
+          </a>
+          and{" "}
+          <a href="https://iridescent-bonbon-a05cad.netlify.app">
+            hosted on Netlify.
+          </a>
+        </footer>
       </div>
     </div>
   );
